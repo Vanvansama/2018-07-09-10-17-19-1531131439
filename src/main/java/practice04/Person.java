@@ -13,6 +13,10 @@ public class Person {
         return "My name is "+this.name+". I am "+this.age+" years old.";
     }
 
+    public String basicIntroduce() {
+        return "My name is "+this.name+". I am "+this.age+" years old.";
+    }
+
     public String getName() {
         return name;
     }
